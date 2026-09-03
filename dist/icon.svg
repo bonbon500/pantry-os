@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base App Background (Squircle) -->
+  <rect x="24" y="24" width="464" height="464" rx="110" fill="url(#bgGrad)" />
+  
+  <!-- Subtle Top Sheen -->
+  <rect x="24" y="24" width="464" height="232" rx="110" fill="url(#glowGrad)" />
+
+  <!-- Outer Rack Frame (Clean Kitchen Shelf) -->
+  <g fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top Bar -->
+    <path d="M120 160 L392 160" opacity="0.9" />
+    <!-- Middle Shelf -->
+    <path d="M100 270 L412 270" />
+    <!-- Bottom Shelf -->
+    <path d="M100 380 L412 380" />
+    <!-- Side Rails -->
+    <path d="M120 160 L100 390" opacity="0.6" stroke-width="14" />
+    <path d="M392 160 L412 390" opacity="0.6" stroke-width="14" />
+  </g>
+
+  <!-- Shelf 1 Items: Glass Jars & Containers -->
+  <!-- Jar 1 (Left) -->
+  <g fill="#ffffff" opacity="0.95">
+    <rect x="145" y="180" width="60" height="75" rx="12" />
+    <rect x="157" y="170" width="36" height="12" rx="4" fill="#a7f3d0" />
+    <rect x="153" y="215" width="44" height="32" rx="6" fill="#059669" opacity="0.3" />
+  </g>
+
+  <!-- Jar 2 (Center) -->
+  <g fill="#ffffff" opacity="0.95">
+    <rect x="226" y="190" width="60" height="65" rx="12" />
+    <rect x="238" y="180" width="36" height="12" rx="4" fill="#a7f3d0" />
+    <rect x="234" y="220" width="44" height="27" rx="6" fill="#059669" opacity="0.3" />
+  </g>
+
+  <!-- Jar 3 (Right) -->
+  <g fill="#ffffff" opacity="0.95">
+    <rect x="307" y="175" width="60" height="80" rx="12" />
+    <rect x="319" y="165" width="36" height="12" rx="4" fill="#a7f3d0" />
+    <rect x="315" y="210" width="44" height="37" rx="6" fill="#059669" opacity="0.3" />
+  </g>
+
+  <!-- Shelf 2 Items: Canisters & Bottles -->
+  <g fill="#ffffff">
+    <!-- Bottle 1 -->
+    <path d="M145 365 L145 315 C145 305 155 295 165 295 L165 285 L180 285 L180 295 C190 295 200 305 200 315 L200 365 Z" />
+    <!-- Container 2 -->
+    <rect x="220" y="295" width="72" height="70" rx="14" fill="#ffffff" />
+    <circle cx="256" cy="330" r="14" fill="#10b981" />
+    <!-- Box 3 -->
+    <rect x="312" y="285" width="55" height="80" rx="10" fill="#a7f3d0" opacity="0.9" />
+  </g>
+
+  <!-- Smart Co-pilot AI Sparkle (Top Right) -->
+  <g fill="#fef08a">
+    <path d="M400 80 Q400 125 445 125 Q400 125 400 170 Q400 125 355 125 Q400 125 400 80 Z" />
+    <circle cx="340" cy="85" r="8" fill="#fef08a" />
+    <circle cx="435" cy="180" r="6" fill="#fef08a" />
+  </g>
+</svg>

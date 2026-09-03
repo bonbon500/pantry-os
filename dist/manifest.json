@@ -1,0 +1,40 @@
+{
+  "name": "Pantry OS & Kitchen Co-pilot",
+  "short_name": "Pantry OS",
+  "description": "מערכת ניהול מזווה חכם, תנועות מלאי, בישול שוטף, קניות ועוזר מטבח אישי",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#09090b",
+  "theme_color": "#10b981",
+  "dir": "rtl",
+  "lang": "he",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["lifestyle", "food", "utilities"]
+}
