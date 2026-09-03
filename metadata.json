@@ -1,0 +1,1 @@
+{"name":"Pantry OS \u0026 Kitchen Co-pilot","description":"מערכת ניהול מזווה חכם, תנועות מלאי, בישול שוטף, קניות ועוזר מטבח אישי חכם מבוסס AI","requestFramePermissions":["camera","microphone"],"majorCapabilities":["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]}
